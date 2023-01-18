@@ -1,12 +1,20 @@
 import './App.css';
-import Nav from './components/Nav';
+import Contact from './components/Contact';
+import Fireflies from './components/Fireflies';
+import IconLinks from './components/IconLinks';
+import NavBar from './components/NavBar';
+import PersonalInfo from './components/PersonalInfo';
+import Projects from './components/Projects';
 
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <div class="wave"></div>
-      <div class="wave"></div>
+      <NavBar />
+      <PersonalInfo />
+      <IconLinks />
+      <Projects />
+      <Fireflies />
+      <Contact />
     </div>
   );
 }

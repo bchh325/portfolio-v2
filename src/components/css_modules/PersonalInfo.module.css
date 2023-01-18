@@ -1,0 +1,7 @@
+.pinfo-container {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+}

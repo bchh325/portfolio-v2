@@ -1,0 +1,51 @@
+.nav-container {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    column-gap: 3px;
+    border-bottom: 3px solid #222222;
+}
+
+/* CSS */
+.nav-button {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #dfe6e9;
+  border-radius: 2px;
+  box-sizing: border-box;
+  color: #dfe6e9;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 6px 12px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+}
+
+.nav-button:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow .2s;
+}
+
+.nav-button:active {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-color: #000000;
+  transform: scale(.96);
+}
+
+.nav-button:disabled {
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+  cursor: not-allowed;
+  opacity: 1;
+}

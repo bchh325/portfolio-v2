@@ -1,0 +1,18 @@
+.projects-flex-container {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.project-container {
+    background-color: blueviolet;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-container span {
+    width: 100%;
+}
