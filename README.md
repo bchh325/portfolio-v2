@@ -1,6 +1,10 @@
 # React Portfolio
 
-In-progress portfolio website created from scratch in React
+In-progress portfolio website created from scratch in React.
+
+The funny thing is that the writing-style here feels a lot less "professional" <br>
+here compared to my application over at: https://github.com/bchh325/trading-site <br>
+This is here to show more of my personality.. _hopefully_
 
 ___
 
@@ -16,3 +20,9 @@ This is from the commit titled "**created barebones template using flexbox**"
 
 <img src="https://i.imgur.com/O2ucXVZ.png" alt="Stock Content Page" width="500" title="Stock Content Page">
 
+## Here are some tasks I have planned!
+* Having a modal appear when a project is clicked that displays some information and the link to the site and repository
+* Adding functionality to the nav buttons that make it scroll to a certain point in the page
+* Fix text getting cut off on some browsers on mobile devices (Safari iOS is the main culprit. Chrome iOS works fine)
+* Add the rest of my projects
+* Add profile picture
