@@ -1,0 +1,7 @@
+.box {
+    color: white;
+    padding: 150px;
+    margin: 0 0;
+    position: relative;
+    z-index: 4;
+}
