@@ -12,8 +12,8 @@ export default function IconLinks() {
   return (
     <FadeIn>
       <div className={styles["icons-container"]}>
-        <AiOutlineLinkedin onClick={clickHandler} className={styles.icon} size={50} />
-        <AiFillGithub onClick={clickHandler} className={styles.icon} size={50} />
+        <AiOutlineLinkedin onClick={clickHandler("linkedin")} className={styles.icon} size={50} />
+        <AiFillGithub onClick={clickHandler("github")} className={styles.icon} size={50} />
       </div>
     </FadeIn>
   )
