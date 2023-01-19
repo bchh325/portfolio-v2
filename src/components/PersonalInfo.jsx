@@ -4,9 +4,7 @@ import styles from './css_modules/PersonalInfo.module.css'
 export default function PersonalInfo() {
   return (
     <div className={styles["personalinfo-container"]}>
-      <div>
-        <span className={styles.name}>Bryan Chhorb</span>
-      </div>
+      <span className={styles.name}>Bryan Chhorb</span>
       <div className={styles["about-me"]}>
         <p>
           Aspiring developer that is motivated by the desire to learn the latest technologies and by having fun thinking through programmatic problems as if it were a jigsaw puzzle.

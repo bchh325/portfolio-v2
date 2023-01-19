@@ -1,9 +1,11 @@
 .personalinfo-container {
+    padding-top: 50px;
     position: relative;
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    row-gap: 40px;
     width: 100%;
     font-size: 40px;
     height: 93vh;
@@ -44,9 +46,6 @@
 }
 
 .name {
-    padding: 10px;
-    display: inline-block;
     font-size: 3.2rem;
-    border: 2px solid white;
-    width: fit-content;
+    font-weight: bold
 }
