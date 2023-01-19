@@ -1,5 +1,6 @@
 import './App.css';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import IconLinks from './components/IconLinks';
 import NavBar from './components/NavBar';
 import PersonalInfo from './components/PersonalInfo';
@@ -10,9 +11,10 @@ function App() {
     <div className="App">
       <PersonalInfo />
       <NavBar />
-      <IconLinks />
       <Projects />
+      <IconLinks />
       <Contact />
+      <Footer />
     </div>
   );
 }

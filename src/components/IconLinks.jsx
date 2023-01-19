@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './css_modules/IconLinks.module.css'
 import { AiOutlineLinkedin, AiFillGithub } from "react-icons/ai"
+import FadeIn from './FadeIn'
 
 export default function IconLinks() {
 
@@ -9,9 +10,11 @@ export default function IconLinks() {
   }
 
   return (
-    <div className={styles["icons-container"]}>
-      <AiOutlineLinkedin onClick={clickHandler} className={styles.icon} size={50}/>
-      <AiFillGithub onClick={clickHandler} className={styles.icon} size={50}/>
-    </div>
+    <FadeIn>
+      <div className={styles["icons-container"]}>
+        <AiOutlineLinkedin onClick={clickHandler} className={styles.icon} size={50} />
+        <AiFillGithub onClick={clickHandler} className={styles.icon} size={50} />
+      </div>
+    </FadeIn>
   )
 }

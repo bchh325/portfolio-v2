@@ -5,7 +5,7 @@
     column-gap: 50px;
     flex-direction: row;
     padding: 20px 0px;
-    border-top: 1px solid white;
+    background-color: rgb(230, 230, 230);
 }
 
 .icon {
