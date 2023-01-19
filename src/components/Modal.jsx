@@ -5,7 +5,11 @@ export default function Modal() {
   return (
     <div className={styles["modal-container"]}>
         <div className={styles["modal-content"]}>
-            Modal Content
+            <span>Modal Content</span>
+            <span>Modal Content</span>
+            <span>Modal Content</span>
+            <span>Modal Content</span>
+            <span>Modal Content</span>
         </div>
     </div>
   )
