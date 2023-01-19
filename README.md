@@ -1,16 +1,17 @@
-# React Portfolio
+## React Portfolio
 
-In-progress portfolio website created from scratch in React.
-
-The funny thing is that the writing-style here feels a lot less "professional" <br>
-here compared to my application over at: https://github.com/bchh325/trading-site <br>
-This is here to show more of my personality.. _hopefully_
-
-___
-
+# In-progress portfolio website created from scratch in React.
 View what the website currently looks like here:
 
 https://bchh325.github.io/portfolio-v2/
+
+___
+
+The funny thing is that the writing-style here feels a lot less "professional" <br>
+here compared to my application over at: https://github.com/bchh325/trading-site <br>
+The point of this is to show more of my personality.. _hopefully_
+
+___
 
 I always enjoy looking back and seeing just how projects start and how far they have come.
 
