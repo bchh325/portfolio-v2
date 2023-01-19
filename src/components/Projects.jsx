@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './css_modules/Projects.module.css'
 import FadeIn from './FadeIn'
+import Modal from './Modal'
 
 export default function Projects() {
   return (
