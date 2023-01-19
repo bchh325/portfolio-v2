@@ -44,5 +44,9 @@
 }
 
 .name {
+    padding: 10px;
+    display: inline-block;
     font-size: 3.2rem;
+    border: 2px solid white;
+    width: fit-content;
 }
