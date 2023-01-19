@@ -6,22 +6,22 @@ export default function Projects() {
   return (
     <div className={styles["projects-flex-container"]}>
       <FadeIn>
-        <div className={styles.box}>Box</div>
+        <div className={`${styles.box} ${styles["first-project"]}`}>Project</div>
       </FadeIn>
       <FadeIn>
-        <div className={styles.box}>Box</div>
+        <div className={`${styles.box} ${styles["second-project"]}`}>Project</div>
       </FadeIn>
       <FadeIn>
-        <div className={styles.box}>Box</div>
+        <div className={styles.box}>Project</div>
       </FadeIn>
       <FadeIn>
-        <div className={styles.box}>Box</div>
+        <div className={styles.box}>Project</div>
       </FadeIn>
       <FadeIn>
-        <div className={styles.box}>Box</div>
+        <div className={styles.box}>Project</div>
       </FadeIn>
       <FadeIn>
-        <div className={styles.box}>Box</div>
+        <div className={styles.box}>Project</div>
       </FadeIn>
     </div>
   )
