@@ -26,3 +26,4 @@ This is from the commit titled "**created barebones template using flexbox**"
 * Fix text getting cut off on some browsers on mobile devices (Safari iOS is the main culprit. Chrome iOS works fine)
 * Add the rest of my projects
 * Add profile picture
+* Fix styling on Android devices
