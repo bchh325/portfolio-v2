@@ -4,3 +4,7 @@
     flex-direction: column;
     row-gap: 10px;
 }
+
+.contact {
+    margin: 40px 0;
+}
