@@ -13,7 +13,7 @@ export default function Contact() {
       message: "Email address copied!",
       description: "Send me any information that you wish! I'm also open to internships! :)",
       placement: 'top',
-      duration: 4
+      duration: 2
     })
   }
 
