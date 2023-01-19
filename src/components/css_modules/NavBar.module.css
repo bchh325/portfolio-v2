@@ -4,6 +4,10 @@
     justify-content: center;
     column-gap: 3px;
     border-bottom: 3px solid #222222;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: black;
 }
 
 /* CSS */

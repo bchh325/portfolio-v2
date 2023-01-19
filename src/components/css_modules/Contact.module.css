@@ -1,10 +1,11 @@
 .contact-container {
-    background-color: coral;
     display: flex;
+    background-color: rgba(255, 127, 80, 0.432);
     flex-direction: column;
-    row-gap: 10px;
+    row-gap: 40px;
 }
 
 .contact {
-    margin: 40px 0;
+    background-color: coral;
+    padding: 20px 0;
 }

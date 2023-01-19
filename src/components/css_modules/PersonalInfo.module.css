@@ -1,7 +1,22 @@
 .personalinfo-container {
-    background-color: beige;
+    position: relative;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     width: 100%;
+    padding: 300px 0px;
+}
+
+.personalinfo-container::before {
+    content: "";
+    background-image: url('../../../public/background.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+    z-index: -1;
 }
