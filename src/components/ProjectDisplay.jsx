@@ -5,15 +5,16 @@ import Modal from './Modal'
 
 export default function ProjectDisplay({ info }) {
     const [showModal, setShowModal] = useState(false)
-    const clickHandler = () => {
-        setShowModal(true)
+
+    const modalHandler = (value) => {
+        setShowModal(value)
     }
 
     return (
         <>
-            {showModal && <Modal info={info}/>}
+            {showModal && <Modal modalHandler={modalHandler} info={info}/>}
             <FadeIn>
-                <div onClick={clickHandler} className={`${styles.box} ${styles[info.img]}`}>{info.title}</div>
+                <div onClick={() => {modalHandler(true)}} className={`${styles.box} ${styles[info.img]}`}>{info.title}</div>
             </FadeIn>
         </>
     )

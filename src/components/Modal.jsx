@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './css_modules/Modal.module.css'
 import { AiFillGithub, AiOutlineArrowRight } from "react-icons/ai"
 
-export default function Modal({ info }) {
+export default function Modal({ info, modalHandler }) {
   const openInNewTab = (url) => {
     const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
     if (newWindow) newWindow.opener = null
@@ -13,10 +13,15 @@ export default function Modal({ info }) {
     return () => openInNewTab(url)
   }
 
+  const closeHandler = () => {
+    modalHandler(false)
+  }
+
   return (
     <div className={styles["modal-container"]}>
       <div className={styles["modal-content-background"]} />
       <div className={`${styles["modal-content"]} ${styles[info.img]}`}>
+        <button onClick={closeHandler} className={styles.close}>X</button>
         <h2>{info.title}</h2>
         <div onClick={onClickUrl(info.repoLink)} className={styles["item-container"]}>
           <AiFillGithub className={styles.icon} size={40} />
