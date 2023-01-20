@@ -27,7 +27,7 @@ export default function Projects() {
       title: 'My Portfolio Website',
       repoLink: 'https://github.com/bchh325/portfolio-v2',
       webLink: 'https://bchh325.github.io/portfolio-v2/',
-      desc: 'My personal portfolio website where peop... wait, you\'re on the site! Anyway, check out the repo for more information',
+      desc: 'My personal portfolio website that I build from scratch where peop... wait, you\'re on the site! Anyway, check out the repo for more information',
       tech: 'React',
       img: 'portfolio'
     }
