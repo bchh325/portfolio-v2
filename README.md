@@ -20,10 +20,14 @@ This is from the commit titled "**created barebones template using flexbox**"
 
 <img src="https://i.imgur.com/O2ucXVZ.png" alt="Stock Content Page" width="500" title="Stock Content Page">
 
-## Here are some tasks I have planned!
+## Here's the tasks that I planned then finished, or ended up doing without putting it as a plan
 * Having a modal appear when a project is clicked that displays some information and the link to the site and repository
 * Adding functionality to the nav buttons that make it scroll to a certain point in the page
 * Fix text getting cut off on some browsers on mobile devices (Safari iOS is the main culprit. Chrome iOS works fine)
+
+## Here are some tasks I have planned!
 * Add the rest of my projects
 * Add profile picture
 * Fix styling on Android devices
+* Prevent scrolling when modal is open
+* Animate the conditionally rendered React component when it is set to false
