@@ -18,7 +18,7 @@ export default function Contact() {
   }
 
   return (
-    <div className={styles["contact-container"]}>
+    <div id="contact-me" className={styles["contact-container"]}>
       <FadeIn>
         <div className={styles.contact}>
           <span className={styles.email}>chhorb.bryan@gmail.com</span>

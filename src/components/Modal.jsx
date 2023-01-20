@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './css_modules/Modal.module.css'
 import { AiFillGithub, AiOutlineArrowRight } from "react-icons/ai"
 
-export default function Modal({ info, modalHandler }) {
+export default function Modal({ info, modalHandler, animationStyle }) {
   const openInNewTab = (url) => {
     const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
     if (newWindow) newWindow.opener = null
@@ -31,8 +31,8 @@ export default function Modal({ info, modalHandler }) {
           <AiOutlineArrowRight className={styles.icon} size={40} />
           <span>Visit the Website</span>
         </div>
-        <span>{info.desc}</span>
-        <span>{info.tech}</span>
+        <p className={styles.desc}>{info.desc}</p>
+        <span className={styles.tech}>{info.tech}</span>
       </div>
     </div>
   )

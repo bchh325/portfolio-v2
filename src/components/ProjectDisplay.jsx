@@ -12,9 +12,13 @@ export default function ProjectDisplay({ info }) {
 
     return (
         <>
-            {showModal && <Modal modalHandler={modalHandler} info={info}/>}
+            {showModal && <Modal modalHandler={modalHandler} info={info} />}
             <FadeIn>
-                <div onClick={() => {modalHandler(true)}} className={`${styles.box} ${styles[info.img]}`}>{info.title}</div>
+                <div onClick={() => { modalHandler(true) }} className={`${styles.box} ${styles[info.img]}`}>
+                    <span className={styles.title}>
+                        {info.title}
+                    </span>
+                </div>
             </FadeIn>
         </>
     )

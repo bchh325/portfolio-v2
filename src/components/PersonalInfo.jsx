@@ -3,7 +3,7 @@ import styles from './css_modules/PersonalInfo.module.css'
 
 export default function PersonalInfo() {
   return (
-    <div className={styles["personalinfo-container"]}>
+    <div id="about-me" className={styles["personalinfo-container"]}>
       <span className={styles.name}>Bryan Chhorb</span>
       <div className={styles["about-me"]}>
         <p>

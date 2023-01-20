@@ -21,12 +21,25 @@
     z-index: -1;
 }
 
+.title {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.title:hover {
+    cursor: pointer;
+}
+
 .watchlist::before {
     background-image: url('../../../public/watchlist.png');
 }
 
 .minimax::before {
     background-image: url('../../../public/minimax.png');
+}
+
+.portfolio::before {
+    background-image: url('../../../public/portfolio.png');
 }
 
 .box:hover::before {

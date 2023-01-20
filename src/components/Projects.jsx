@@ -11,17 +11,25 @@ export default function Projects() {
       title: 'Stock Watchlist',
       repoLink: 'https://github.com/bchh325/trading-site',
       webLink: 'https://bchh325.github.io/trading-site/#/',
-      desc: 'sample description',
-      tech: 'sample tech',
+      desc: 'Stock Watchlist application where users are able to register/sign in to access unique ticker data from Finnhub\'s Stock Market API',
+      tech: 'AWS (Cognito - Lambda (Node.js 18) - API Gateway - DynamoDB - Secrets Manager - IAM) - React',
       img: 'watchlist'
     },
     tictactoe: {
       title: 'Minimax Tic-Tac-Toe',
-      repoLink: 'https://github.com/bchh325/tictactoe',
+      repoLink: 'https://github.com/bchh325/tictactoe/tree/master',
       webLink: 'https://bchh325.github.io/tictactoe/',
-      desc: 'sample description',
-      tech: 'sample tech',
+      desc: 'Tic-Tac-Toe using Minimax algorithm to determine opponent\'s next move.',
+      tech: 'Firestore Database - React',
       img: 'minimax'
+    },
+    portfolio: {
+      title: 'My Portfolio Website',
+      repoLink: 'https://github.com/bchh325/portfolio-v2',
+      webLink: 'https://bchh325.github.io/portfolio-v2/',
+      desc: 'My personal portfolio website where peop... wait, you\'re on the site! Anyway, check out the repo for more information',
+      tech: 'React',
+      img: 'portfolio'
     }
   })
   const modalHandler = (type) => {
@@ -29,8 +37,9 @@ export default function Projects() {
   }
 
   return (
-    <div className={styles["projects-flex-container"]}>
+    <div id="projects" className={styles["projects-flex-container"]}>
       <ProjectDisplay info={projects.watchlist} />
+      <ProjectDisplay info={projects.portfolio}/>
       <ProjectDisplay info={projects.tictactoe}/>
     </div>
   )
