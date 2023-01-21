@@ -2,6 +2,15 @@ import React from 'react'
 import styles from './css_modules/PersonalInfo.module.css'
 
 export default function PersonalInfo() {
+  const openInNewTab = (url) => {
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+    if (newWindow) newWindow.opener = null
+  }
+
+  const onClickUrl = (url) => {
+    return () => openInNewTab(url)
+  }
+
   return (
     <div id="about-me" className={styles["personalinfo-container"]}>
       <span className={styles.name}>Bryan Chhorb</span>
@@ -36,6 +45,9 @@ export default function PersonalInfo() {
             IAM
           </span>
         </div>
+        <button onClick={onClickUrl("https://drive.google.com/file/d/15vTDoehkJLn3aGRXdqbAUquCmLaNZSnL/view")} className={styles.resumeBtn}>
+          Resume
+        </button>
       </div>
     </div>
   )
