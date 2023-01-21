@@ -19,7 +19,7 @@ export default function Projects() {
       title: 'Minimax Tic-Tac-Toe',
       repoLink: 'https://github.com/bchh325/tictactoe/tree/master',
       webLink: 'https://bchh325.github.io/tictactoe/',
-      desc: 'Tic-Tac-Toe using Minimax algorithm to determine opponent\'s next move.',
+      desc: 'Tic-Tac-Toe using Minimax algorithm to determine opponent\'s next move. Global wins/losses/ties are stored on Firestore Database.',
       tech: 'Firestore Database - React',
       img: 'minimax'
     },
