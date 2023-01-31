@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio-v2/static/css/main.7b1232e3.css",
-    "main.js": "/portfolio-v2/static/js/main.00d4b935.js",
+    "main.css": "/portfolio-v2/static/css/main.18fdf500.css",
+    "main.js": "/portfolio-v2/static/js/main.f5600f4c.js",
     "static/media/watchlist.png": "/portfolio-v2/static/media/watchlist.8278bbbc7831ad15c96b.png",
+    "static/media/mechportfolio.png": "/portfolio-v2/static/media/mechportfolio.71ddd3c5c258f533939f.png",
     "static/media/portfolio.png": "/portfolio-v2/static/media/portfolio.c7332ab3e046459e6fd7.png",
     "static/media/background.jpg": "/portfolio-v2/static/media/background.dcf5066b3348b9d2fb4f.jpg",
     "static/media/minimax.png": "/portfolio-v2/static/media/minimax.c230e256c83e671d65b6.png",
     "index.html": "/portfolio-v2/index.html",
-    "main.7b1232e3.css.map": "/portfolio-v2/static/css/main.7b1232e3.css.map",
-    "main.00d4b935.js.map": "/portfolio-v2/static/js/main.00d4b935.js.map"
+    "main.18fdf500.css.map": "/portfolio-v2/static/css/main.18fdf500.css.map",
+    "main.f5600f4c.js.map": "/portfolio-v2/static/js/main.f5600f4c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b1232e3.css",
-    "static/js/main.00d4b935.js"
+    "static/css/main.18fdf500.css",
+    "static/js/main.f5600f4c.js"
   ]
 }
