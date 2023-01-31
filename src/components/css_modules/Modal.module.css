@@ -44,7 +44,7 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.25;
+    opacity: 0.15;
     z-index: -1;
 }
 
@@ -138,4 +138,8 @@
 
 .portfolio::before {
     background-image: url('../../../public/portfolio.png');
+}
+
+.mechportfolio::before {
+    background-image: url('../../../public/mechportfolio.png');
 }

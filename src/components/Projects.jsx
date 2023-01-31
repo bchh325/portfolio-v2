@@ -30,6 +30,14 @@ export default function Projects() {
       desc: 'My personal portfolio website that I built from scratch where peop... wait, you\'re on the site! Anyway, check out the repo for more information',
       tech: 'React',
       img: 'portfolio'
+    },
+    mechportfolio: {
+      title: 'Client\'s Portfolio Website (WIP)',
+      repoLink: 'https://github.com/bchh325/mech-portfolio',
+      webLink: 'https://bchh325.github.io/mech-portfolio/',
+      desc: 'Portfolio website that I am making for my friend in Aerospace Engineering to display his projects!',
+      tech: 'React',
+      img: 'mechportfolio'
     }
   })
   const modalHandler = (type) => {
@@ -39,6 +47,7 @@ export default function Projects() {
   return (
     <div id="projects" className={styles["projects-flex-container"]}>
       <ProjectDisplay info={projects.watchlist} />
+      <ProjectDisplay info={projects.mechportfolio} />
       <ProjectDisplay info={projects.portfolio}/>
       <ProjectDisplay info={projects.tictactoe}/>
     </div>
