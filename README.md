@@ -1,4 +1,4 @@
-## React Portfolio
+## React Portfolio (Outdated, new one in progress)
 
 ## **View what the website currently looks like here! https://bchh325.github.io/portfolio-v2/**
 
